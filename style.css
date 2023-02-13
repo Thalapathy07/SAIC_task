@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Times New Roman;
+}
+
+header{
+    /* background-image: url("../iit.jpg"); */
+    
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+}
+.back img{
+
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+      
+}
+
+ul{
+    float:right;
+    list-style-type: none;
+    margin-top: 4px;
+
+}
+
+ul li{
+    display:inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #951212;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+
+}
+
+ul li a:hover{
+    background-color: #e2d9d9;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.logo img{
+    float: left;
+    width: 60px;
+    height:20px;
+}
+
+.main{
+    max-width:1200px;
+    margin:auto;
+}
+.title{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%)
+
+
+}
+
+.title h1{
+    color: #110e0e;
+    font-size: 70 px;
+}
+.button{
+    position:absolute;
+    top:63%;
+    left:50%;
+    transform: translate(-50%,-50%)
+
+}
+.btn{
+    border: 1px solid #191717;
+    padding: 10px 30px;
+    color: #141313;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: #bfb2b2;
+    color: #000;
+}
